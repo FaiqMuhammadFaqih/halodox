@@ -19,7 +19,25 @@ const Main = () => {
                     <p style={{width:"650px", color:"#8a8082"}}>Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi seputar kesehatan, semua bisa di Halodoc!</p>
                 </div>
                 <div className="row">
-                    <Kartu img2={image2}/>
+                    <div>
+                        <Kartu img2={image2}/>
+                    </div>
+                    <div>
+                        <Kartu img3={image3}/>
+                    </div>
+                    <div>
+                        <Kartu img4={image4}/>
+                    </div>
+                    <div>
+                        <Kartu img5={image5}/>
+                    </div>
+                    <div>
+                        <Kartu img6={image6}/>
+                    </div>
+                
+                
+                
+                
                 </div>
             </div>
         </div>
