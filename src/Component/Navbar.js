@@ -1,15 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 
 
 const Navig = (props) => {
     return(
-        <Navbar bg="light" expand="lg" style={{borderBottom:"1px solid #a6a3a3", backgroundColor:"#f3dbe8"}}>
+        <Navbar bg="light" expand="lg" style={{ borderBottom:"1px solid #a6a3a3", backgroundColor:"none"}}>
       <Container >
         <Navbar.Brand href="#"><img  style={{ width:"171px", marginLeft:"20px", marginRight:"45px", }} src={props.img1} alt='image'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -25,7 +24,7 @@ const Navig = (props) => {
             <Nav.Link href="#action2" style={{fontSize:"17px"}}>Riwayat</Nav.Link>
             
           </Nav>
-          <Button variant="outline-danger" style={{backgroundColor:"#e02e56", color:"white",  borderRadius:"5px", fontWeight:"600", }}>Login</Button>
+          <Button variant="outline-danger" style={{backgroundColor:"#E0004D", color:"white",  borderRadius:"5px", fontWeight:"600", }}>Login</Button>
           
         </Navbar.Collapse>
       </Container>
