@@ -2,6 +2,9 @@ import Navig from "./Navbar";
 import Asuransi from "./Asuransi";
 import Layanan from "./Layanan";
 import Penawaran from "./Penawaran";
+import Artikel from "./Artikel-nav";
+import IsiArtikel from "./IsiArtikel";
+import ButtonArtikel from "./Button-Artikel";
 import image8 from "./../Assets/path.png"
 import image from "./../Assets/halodoc-logo.png"
 import image2 from "./../Assets/download.png"
@@ -31,6 +34,13 @@ import LogoPenunjang6 from "./../Assets/medicine-reminder-v2.png"
 import LogoPenunjang7 from "./../Assets/donation.png"
 import LogoPenunjang8 from "./../Assets/depresi.png"
 import LogoPenunjang9 from "./../Assets/anxiety.png"
+import LogoPenawaran from "./../Assets/penawaran 1.png"
+import LogoPenawaran2 from "./../Assets/penawaran2.png"
+import LogoPenawaran3 from "./../Assets/penawaran3.png"
+import LogoArtikel from "./../Assets/Benarkah-Lecithin-Bermanfaat-untuk-Melancarkan-ASI_.jpg.png"
+import LogoArtikel2 from "./../Assets/Si-Kecil-Mendadak-Demam-saat-Puasa-Atasi-dengan-Cara-Ini.png.png"
+import LogoArtikel3 from "./../Assets/X-Manfaat-Terapi-Kognitif-bagi-Pengidap-Kesehatan-Mental.jpg.png"
+import LogoArtikel4 from "./../Assets/ini-penyebab-dan-gejala-sirosis-yang-perlu-diketahui-halodoc.jpg.png"
 
 
 
@@ -147,6 +157,43 @@ const Main = () => {
                 </div>
                 
             </div>
+            </div>
+            <div>
+                <div className="container">
+                    <div>
+                        <h1 style={{fontSize:"30px"}}>Penawaran Menarik</h1>
+                    </div>
+                    <div className="row" style={{gap:"40px"}}>
+                        <Penawaran penawar={LogoPenawaran}/>
+                        <Penawaran penawar={LogoPenawaran2}/>
+                        <Penawaran penawar={LogoPenawaran3}/>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="container">
+                        <Artikel/>
+                        <div style={{margin:"14px"}}>
+                            <ButtonArtikel/>
+                        </div> 
+                </div>
+            </div>
+            <div >
+                <div className="container" style={{display:"flex", flexDirection:"row",justifyContent:"center", margin:"55px", alignItems:"center"}}>
+                    <div className="" style={{width:"350px"}}>
+                        <IsiArtikel gmbr={LogoArtikel} tekss="Benarkah-Lecithin-Bermanfaat-untuk-Melancarkan-ASI"/>
+                    </div>
+                    <div className="" style={{width:"350px"}}>
+                        <IsiArtikel gmbr={LogoArtikel2} tekss=" Si-Kecil-Mendadak-Demam-saat-Puasa-Atasi-dengan-Cara-Ini"/>
+                    </div>
+                    <div className="" style={{width:"350px"}}>
+                        <IsiArtikel gmbr={LogoArtikel3} tekss=" X-Manfaat-Terapi-Kognitif-bagi-Pengidap-Kesehatan-Mental"/>
+                    </div>
+                    <div className="" style={{width:"350px"}}>
+                        <IsiArtikel gmbr={LogoArtikel4} tekss="ini-penyebab-dan-gejala-sirosis-yang-perlu-diketahui-halodoc."/>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     )

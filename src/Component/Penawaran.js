@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
 
 
-const Penawaran = () => {
+const Penawaran = (props) => {
     return(
-    <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />    
+    <Card style={{width:"300px", marginTop:"10px", border:"none", margin:"15px", display:"flex", flexDirection:"row"}}>
+        <Card.Img variant="top" src={props.penawar} style={{width:"300px", marginTop:"10px", borderRadius:"7px"}}/>    
     </Card>
     )
 }
