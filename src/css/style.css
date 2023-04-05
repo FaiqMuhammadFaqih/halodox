@@ -1,0 +1,11 @@
+.tek .we{
+    color:"black";
+}
+
+.tek .we:hover {
+    color: red;
+}
+
+.yok:hover {
+    color: black;
+}

@@ -5,8 +5,8 @@ import Card from 'react-bootstrap/Card';
 
 const Asuransi = (props) => {
     return(
-        <Card className='px-4 my-3' style={{display:"flex", flexDirection:"row", width:"100%"}}>
-          <Card.Img src={props.gam} style={{width:"100%"}}/>
+        <Card className='' style={{display:"flex", flexDirection:"row", width:"100%", }}>
+          <Card.Img src={props.gam} style={{width:"100%", padding:"10px"}}/>
           <Card.Body>
             <Card.Title style={{fontSize:"20px"}}>Sambungkan Asuransimu</Card.Title>
             <Card.Text style={{fontSize:"10px"}}>

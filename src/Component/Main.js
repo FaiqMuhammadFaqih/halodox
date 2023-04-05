@@ -83,7 +83,7 @@ const Main = () => {
                 <div style={{marginTop:"70px"}}>
                     <h1 style={{fontSize:"25px"}}>Layanan Khusus</h1>
                 </div>
-                <div className="row mb-5 " style={{margin:"20px", gap:"40px"}}>
+                <div className="row mb-5 " style={{ gap:"40px", display:"flex", flexDirection:"row",justifyContent:"center",}}>
                 <div className="row col-1">
                     <Layanan layanan={LogoLayanan} layan="Layanan Bidan"/>
                 </div>
@@ -123,7 +123,7 @@ const Main = () => {
                 <div style={{marginTop:"70px"}}>
                     <h1 style={{fontSize:"30px"}}>Penunjang Kesehatan</h1>
                 </div>
-                <div className="row mb-5 " style={{margin:"50px", marginLeft:"20px", gap:"43px"}}>
+                <div className="row mb-5 " style={{ gap:"40px", display:"flex", flexDirection:"row",justifyContent:"center",}}>
                 <div className="row col-1">
                     <Layanan layanan={LogoPenunjang} layan="Cek Stres"/>
                 </div>
@@ -159,11 +159,11 @@ const Main = () => {
             </div>
             </div>
             <div>
-                <div className="container">
+                <div className="container" >
                     <div>
                         <h1 style={{fontSize:"30px"}}>Penawaran Menarik</h1>
                     </div>
-                    <div className="row" style={{gap:"40px"}}>
+                    <div className="row" style={{gap:"40px", display:"flex", flexDirection:"row",justifyContent:"center",}}>
                         <Penawaran penawar={LogoPenawaran}/>
                         <Penawaran penawar={LogoPenawaran2}/>
                         <Penawaran penawar={LogoPenawaran3}/>
@@ -179,18 +179,18 @@ const Main = () => {
                 </div>
             </div>
             <div >
-                <div className="container" style={{display:"flex", flexDirection:"row",justifyContent:"center", margin:"55px", alignItems:"center"}}>
+                <div className="container" style={{display:"flex", flexDirection:"row",justifyContent:"center", gap:"10px"}}>
                     <div className="" style={{width:"350px"}}>
-                        <IsiArtikel gmbr={LogoArtikel} tekss="Benarkah-Lecithin-Bermanfaat-untuk-Melancarkan-ASI"/>
+                        <IsiArtikel gmbr={LogoArtikel} tekss="Benarkah Lecithin Bermanfaat untuk Melancarkan ASI"/>
                     </div>
                     <div className="" style={{width:"350px"}}>
-                        <IsiArtikel gmbr={LogoArtikel2} tekss=" Si-Kecil-Mendadak-Demam-saat-Puasa-Atasi-dengan-Cara-Ini"/>
+                        <IsiArtikel gmbr={LogoArtikel2} tekss=" Si Kecil Mendadak Demam saat Puasa Atasi dengan Cara Ini" />
                     </div>
                     <div className="" style={{width:"350px"}}>
-                        <IsiArtikel gmbr={LogoArtikel3} tekss=" X-Manfaat-Terapi-Kognitif-bagi-Pengidap-Kesehatan-Mental"/>
+                        <IsiArtikel gmbr={LogoArtikel3} tekss=" X Manfaat Terapi Kognitif bagi Pengidap Kesehatan Mental"/>
                     </div>
                     <div className="" style={{width:"350px"}}>
-                        <IsiArtikel gmbr={LogoArtikel4} tekss="ini-penyebab-dan-gejala-sirosis-yang-perlu-diketahui-halodoc."/>
+                        <IsiArtikel gmbr={LogoArtikel4} tekss="ini penyebab dan gejala sirosis yang perlu diketahui halodoc."/>
                     </div>
                     
                 </div>

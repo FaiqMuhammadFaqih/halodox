@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 const Kartu = (props) => {
     return(
       
-        <Card style={{ display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", borderRadius:"5px", border:"1px solid #657d74", paddingbottom:"5px" }}>
+        <Card style={{ display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", borderRadius:"5px",  paddingbottom:"5px" }}>
           <Card.Img  src={props.image} style={{width:"45%", marginTop:"10px"}} />
           <Card.Body>
             <Card.Title style={{fontSize:"13px"}} >{props.teks}</Card.Title>
