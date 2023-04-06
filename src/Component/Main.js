@@ -6,6 +6,7 @@ import Artikel from "./Artikel-nav";
 import Vitamin from "./Vitamin";
 import IsiArtikel from "./IsiArtikel";
 import Lihat from "./Lihat-Semua-btn";
+import Footer from "./Footer";
 import ButtonArtikel from "./Button-Artikel";
 import image8 from "./../Assets/path.png"
 import image from "./../Assets/halodoc-logo.png"
@@ -198,38 +199,43 @@ const Main = () => {
                     
                 </div>
             </div>
-            <div style={{marginTop:"50px"}}>
-                <div className="container">
-                    <div>
+            <div>
+                <div className="container" >
+                    <div style={{marginTop:"60px"}}>
                         <h1 style={{fontSize:"30px"}}>Obat & Vitamin</h1>
-                        <p>Dapatkan informasi seputar kandungan, aturan, petunjuk penggunaan obat dan vitamin di sini</p>
+                        <p style={{fontWeight:"400", color:"#576463"}}>Dapatkan informasi seputar kandungan, aturan, petunjuk penggunaan obat dan vitamin di sini</p>
                     </div>
-                    <div className="row pb-3 gap-3 ">
-                        <div className="col-12 col lg-4 mb-3">
-                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
-                        </div>
-                        <div className="col-12 col lg-4 mb-3">
-                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
-                        </div>
-                        <div className="col-12 col lg-4 mb-3">
-                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
-                        </div>
+                    <div style={{display:"flex", flexDirection:"row", justifyContent:"center", gap:"40px", width:"1151px" }}>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
                     </div>
-                    <div>
-                    <div className="col-12 col lg-4 mb-3">
-                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
-                        </div>
-                        <div className="col-12 col lg-4 mb-3">
-                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
-                        </div>
-                        <div className="col-12 col lg-4 mb-3" style={{textAlign:"center", fontSize:"40px", color:"red"}}>
-                            <Lihat  tul="Lihat Semua"/>
-                        </div>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
                     </div>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
+                    </div>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
+                    </div>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
+                    </div>
+                    <div className="col-4">
+                        <Vitamin vit={LogoVitamin} tulis="Obat Obatan ta tan tan"/>
+                    </div>
+                    </div>
+                    
                 </div>
             </div>
+            <div>
+                <div>
+                    <Footer/>
+                </div>
+            </div>
+            
         </div>
     )
 }
 
-export default Main;
+export default Main;   
