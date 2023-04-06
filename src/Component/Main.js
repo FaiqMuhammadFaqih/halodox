@@ -3,7 +3,9 @@ import Asuransi from "./Asuransi";
 import Layanan from "./Layanan";
 import Penawaran from "./Penawaran";
 import Artikel from "./Artikel-nav";
+import Vitamin from "./Vitamin";
 import IsiArtikel from "./IsiArtikel";
+import Lihat from "./Lihat-Semua-btn";
 import ButtonArtikel from "./Button-Artikel";
 import image8 from "./../Assets/path.png"
 import image from "./../Assets/halodoc-logo.png"
@@ -41,6 +43,7 @@ import LogoArtikel from "./../Assets/Benarkah-Lecithin-Bermanfaat-untuk-Melancar
 import LogoArtikel2 from "./../Assets/Si-Kecil-Mendadak-Demam-saat-Puasa-Atasi-dengan-Cara-Ini.png.png"
 import LogoArtikel3 from "./../Assets/X-Manfaat-Terapi-Kognitif-bagi-Pengidap-Kesehatan-Mental.jpg.png"
 import LogoArtikel4 from "./../Assets/ini-penyebab-dan-gejala-sirosis-yang-perlu-diketahui-halodoc.jpg.png"
+import LogoVitamin from "./../Assets/378205_15-3-2023_10-19-12.png"
 
 
 
@@ -193,6 +196,36 @@ const Main = () => {
                         <IsiArtikel gmbr={LogoArtikel4} tekss="ini penyebab dan gejala sirosis yang perlu diketahui halodoc."/>
                     </div>
                     
+                </div>
+            </div>
+            <div style={{marginTop:"50px"}}>
+                <div className="container">
+                    <div>
+                        <h1 style={{fontSize:"30px"}}>Obat & Vitamin</h1>
+                        <p>Dapatkan informasi seputar kandungan, aturan, petunjuk penggunaan obat dan vitamin di sini</p>
+                    </div>
+                    <div className="row pb-3 gap-3 ">
+                        <div className="col-12 col lg-4 mb-3">
+                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
+                        </div>
+                        <div className="col-12 col lg-4 mb-3">
+                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
+                        </div>
+                        <div className="col-12 col lg-4 mb-3">
+                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
+                        </div>
+                    </div>
+                    <div>
+                    <div className="col-12 col lg-4 mb-3">
+                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
+                        </div>
+                        <div className="col-12 col lg-4 mb-3">
+                            <Vitamin vit={LogoVitamin} tulis="Obat Luka"/>
+                        </div>
+                        <div className="col-12 col lg-4 mb-3" style={{textAlign:"center", fontSize:"40px", color:"red"}}>
+                            <Lihat  tul="Lihat Semua"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
