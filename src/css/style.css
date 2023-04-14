@@ -10,3 +10,25 @@
     color: black;
 }
 
+.col-12 col-lg-4:hover {
+    box-shadow: 6rem;
+}
+
+.bton {
+    width: 20px;
+}
+
+.h1 {
+    font-size: 20px;
+
+}
+
+.cac {
+    background-color: #E0004D;
+    padding: 5px;
+}
+
+.cac:hover {
+    background-color: #b2003e;
+    padding: 5px;
+}
