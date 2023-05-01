@@ -1,3 +1,5 @@
+
+// file Js
 import Navig from "./Navbar";
 import Asuransi from "./Asuransi";
 import Layanan from "./Layanan";
@@ -8,6 +10,9 @@ import IsiArtikel from "./IsiArtikel";
 import Btno from "./Lihat-Semua-btn";
 import Footer from "./Footer";
 import ButtonArtikel from "./Button-Artikel";
+// file Js
+
+// image header
 import image8 from "./../Assets/path.png"
 import image from "./../Assets/halodoc-logo.png"
 import image2 from "./../Assets/download.png"
@@ -16,6 +21,9 @@ import image4 from "./../Assets/download (2).png"
 import image5 from "./../Assets/download (3).png"
 import image6 from "./../Assets/download (4).png"
 import image7  from "./../Assets/download (5).png"
+// image header
+
+// Image card
 import LogoImage from "./../Assets/home-banner-v3.png"
 import LogoLayanan from "./../Assets/tc-mw-home.png"
 import LogoLayanan1 from "./../Assets/covid-19-test.png"
@@ -27,6 +35,9 @@ import LogoLayanan6 from "./../Assets/sexual-health.png"
 import LogoLayanan7 from "./../Assets/mental-health-v2.png"
 import LogoLayanan8 from "./../Assets/animal-health-v2.png"
 import LogoLayanan9 from "./../Assets/parenting.png"
+// Image card
+
+// Image Penunjang
 import LogoPenunjang from "./../Assets/stress-check-icon.png"
 import LogoPenunjang1 from "./../Assets/period-tracker-v2.png"
 import LogoPenunjang2 from "./../Assets/bmi-calculator-v2.png"
@@ -37,19 +48,33 @@ import LogoPenunjang6 from "./../Assets/medicine-reminder-v2.png"
 import LogoPenunjang7 from "./../Assets/donation.png"
 import LogoPenunjang8 from "./../Assets/depresi.png"
 import LogoPenunjang9 from "./../Assets/anxiety.png"
+// Image Penunjang
+
+// Image Penawaran
 import LogoPenawaran from "./../Assets/penawaran 1.png"
 import LogoPenawaran2 from "./../Assets/penawaran2.png"
 import LogoPenawaran3 from "./../Assets/penawaran3.png"
+// Image Penawaran
+
+// image artikel
 import LogoArtikel from "./../Assets/Benarkah-Lecithin-Bermanfaat-untuk-Melancarkan-ASI_.jpg.png"
 import LogoArtikel2 from "./../Assets/Si-Kecil-Mendadak-Demam-saat-Puasa-Atasi-dengan-Cara-Ini.png.png"
 import LogoArtikel3 from "./../Assets/X-Manfaat-Terapi-Kognitif-bagi-Pengidap-Kesehatan-Mental.jpg.png"
 import LogoArtikel4 from "./../Assets/ini-penyebab-dan-gejala-sirosis-yang-perlu-diketahui-halodoc.jpg.png"
+// image artikel
+
+// image Vitamin
 import LogoVitamin from "./../Assets/814058_14-3-2023_10-52-2.png"
 import LogoVitamin1 from "./../Assets/Specialty+Milk.png"
 import LogoVitamin2 from "./../Assets/836067_14-3-2023_10-50-0.png"
 import LogoVitamin3 from "./../Assets/378205_15-3-2023_10-19-12.png"
 import LogoVitamin4 from "./../Assets/231313_14-3-2023_11-24-22.png"
+// image Vitamin
+
+// image footer
 import LogoFooter from "./../Assets/halodoc-logo.png"
+// image footer
+
 
 
 
@@ -62,7 +87,7 @@ const Main = () => {
             <div style={{backgroundImage: `url(${LogoImage})`, backgroundRepeat:"no-repeat", backgroundPosition:"bottom right", backgroundSize:"cover", paddingBottom:"5px", paddingTop:"5px"}}>
             <div className="container" id="acta">
                 <div className="row"style={{marginTop:"15px", width:"50%"}}>
-                    <h1  style={{fontSize:"32px", color:"#2d2f2e", padding:"10px", fontWeight:"700"}}>Solusi Kesehatan Terlengkap</h1>
+                    <h1  style={{fontSize:"32px", color:"#2d2f2e", padding:"10bpx", fontWeight:"700"}}>Solusi Kesehatan Terlengkap</h1>
                     <p style={{width:"650px", color:"#8a8082"}}>Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi seputar kesehatan, semua bisa di Halodoc!</p>
                 </div>
                 <div className="row gap-3 mb-5  mt-3">
